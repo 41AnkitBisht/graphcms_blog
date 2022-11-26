@@ -3,7 +3,7 @@ import {PostCard, Categories, PostWidget} from '../components'
 import FeaturedPosts from '../sections/FeaturedPosts'
 import { getPosts } from '../services'
 
-const Home = ({ posts } : {posts : Array<any>}) => {
+const Home = ({ posts }) => {
   return (
     <div className="container mx-auto px-10 mb-8 ">
       <Head>
